@@ -110,3 +110,12 @@ body {
 .tag.red {
 	color: red;
 }
+
+@media all and (max-width: 480px) {
+	.search {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex-direction: column;
+	}
+}
